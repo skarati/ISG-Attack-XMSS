@@ -1,0 +1,8 @@
+wots.c==========================
+	gen_chain(...);
+	expand_seed(...);
+
+xmss_common.c===================
+	get_seed(...); after prf(...);
+	l_tree(...); after trash_h(...)
+	compute_root(...); after trash_h(...)
